@@ -4,11 +4,9 @@
 
 @layer components {
 
-    .bg-clipped-white {
-        @apply bg-white;
+    .bg-clipped {
         clip-path: polygon(96% 9%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 9%);
     }
-
     
 
 
